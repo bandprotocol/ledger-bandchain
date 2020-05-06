@@ -25,7 +25,7 @@ extern "C" {
 #define HDPATH_LEN_DEFAULT   5
 
 #define HDPATH_0_DEFAULT     (0x80000000u | 0x2cu)
-#define HDPATH_1_DEFAULT     (0x80000000u | 0x76u)
+#define HDPATH_1_DEFAULT     (0x80000000u | 0x01eeu)
 #define HDPATH_2_DEFAULT     (0x80000000u | 0u)
 #define HDPATH_3_DEFAULT     (0u)
 #define HDPATH_4_DEFAULT     (0u)
@@ -40,8 +40,8 @@ typedef enum {
 #define VIEW_ADDRESS_ITEM_COUNT             2
 #define VIEW_ADDRESS_LAST_PAGE_DEFAULT      0
 
-#define MENU_MAIN_APP_LINE1 "Cosmos"
-#define MENU_MAIN_APP_LINE2 "App"
+#define MENU_MAIN_APP_LINE1 "BandChain"
+#define MENU_MAIN_APP_LINE2 "Ready!"
 #define APPVERSION_LINE2 ""
 
 #ifdef __cplusplus
